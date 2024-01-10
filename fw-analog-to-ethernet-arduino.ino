@@ -43,7 +43,7 @@ void loop() {
           client.println();
 
           // Send the JSON content
-          client.print("{ \"sickDays\": ");
+          client.print("{ \"a0\": ");
           client.print(analogRead(A0));
           client.println(" }");
           break;
